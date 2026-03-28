@@ -23,6 +23,7 @@ body {
 /* HERO */
 .hero {
   height: 90vh;
+  background: #333;
   background: url('images/hero.jpg') center/cover;
   display: flex;
   align-items: center;
