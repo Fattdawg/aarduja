@@ -1,133 +1,54 @@
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-}
+/* COMING SOON PAGE */
 
-h1, h2, h3 {
-  font-weight: 600;
-}
-
-.section h2 {
-  margin-bottom: 30px;
-}
-
-/* NAVBAR */
-.navbar {
-  position: sticky;
-  top: 0;
-  background: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 15px 10%;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-.navbar a {
-  margin-left: 20px;
-  text-decoration: none;
-  color: #333;
-}
-
-/* HERO */
-.hero {
-  height: 90vh;
-  background: #333;
-  background: url('images/hero.jpg') center/cover;
+.coming-hero {
+  height: 100vh;
+  background: url('images/hero.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
 }
 
-.hero-content {
-  background: rgba(0,0,0,0.6);
+.coming-overlay {
+  background: rgba(0,0,0,0.65);
   color: white;
-  padding: 40px;
-  border-radius: 10px;
+  text-align: center;
+  padding: 50px;
+  border-radius: 12px;
+  max-width: 600px;
 }
 
-/* BUTTON */
+.brand {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  color: #f4c542;
+  margin-bottom: 20px;
+}
+
+.desc {
+  margin: 15px 0 25px;
+}
+
+.pillars {
+  margin-bottom: 25px;
+}
+
+.pillars span {
+  background: #e63946;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 14px;
+}
+
 .btn {
   display: inline-block;
   background: #e63946;
-  color: white;
   padding: 12px 25px;
   border-radius: 30px;
-  margin-top: 15px;
   text-decoration: none;
-}
-
-/* SECTION */
-.section {
-  padding: 60px 10%;
-  text-align: center;
-}
-
-.section.alt {
-  background: #f7f7f7;
-}
-
-/* PRODUCTS */
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
-}
-
-.product-card {
-  background: white;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-}
-
-.product-card img {
-  width: 100%;
-}
-
-.product-card h3 {
-  padding: 10px;
-}
-
-/* CARDS */
-.cards {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.card {
-  width: 250px;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-/* GRID */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 20px;
-}
-
-/* CTA */
-.cta {
-  background: #1d3557;
   color: white;
-  padding: 50px;
-}
-
-/* FOOTER */
-footer {
-  background: #111;
-  color: #aaa;
-  padding: 20px;
-}
-
-/* RESPONSIVE */
-@media(max-width:768px){
-  .grid {
-    grid-template-columns: 1fr;
-  }
 }
