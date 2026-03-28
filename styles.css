@@ -1,5 +1,10 @@
 /* COMING SOON PAGE */
 
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
 .coming-hero {
   height: 100vh;
   background: url('images/hero.jpeg') center/cover no-repeat;
